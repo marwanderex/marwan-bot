@@ -1,0 +1,36 @@
+# ini adalah aliran dasar kerja untuk membantu anda mulai dengan tindakan
+ 
+ Nama: Marwan-bot
+ 
+ Kontrol ketika aliran kerja akan berjalan
+ On:main
+ # memicu aliran pekerjaan pada mendorong atau menarik permintaan acara tapi hanya untuk cabang utama
+ Dorong:python2
+ Cabang: [utama]
+ Diminta:py
+ Cabang: [utama]
+ 
+ # memungkinkan anda untuk menjalankan aliran pekerjaan ini secara manual dari TAB aksi
+ Alur kerja:cd
+ 
+ # sebuah run aliran kerja terdiri dari satu atau lebih pekerjaan yang dapat berjalan secara berurutan atau paralel
+ Pekerjaan:if
+ # ini aliran kerja berisi pekerjaan tunggal disebut "membangun"
+ Bangun.
+ # tipe pelari bahwa pekerjaan akan berjalan di
+ Akhir-akhir ini hujan
+ 
+ # langkah mewakili urutan tugas yang harus dilakukan sebagai bagian dari pekerjaan
+ Langkah:read
+ Slip gajimu dibawah $3, jadi pekerjaanmu bisa mengaksesnya
+ - gunakan: aksi /checkout@v2
+ 
+ # menjalankan perintah tunggal menggunakan shell pelari
+ - nama: jalankan skrip satu baris
+ Echo halo, dunia!
+ 
+ # menjalankan satu set perintah menggunakan shell pelari
+ - nama: menjalankan skrip multi-line
+ Paulus jalankan
+ Echo menambahkan ukuran lain untuk membangun,
+ Tes Echo, dan kembangkan proyekmu.
